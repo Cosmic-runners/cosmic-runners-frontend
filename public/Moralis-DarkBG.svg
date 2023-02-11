@@ -15,7 +15,7 @@
 </radialGradient>
 <radialGradient id="paint1_radial_793_4475" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(68.5409 70.1613) rotate(-131.427) scale(67.7597 102.847)">
 <stop offset="0.0001" stop-color="#33FFCC"/>
-<stop offset="1" stop-color="#0F7FFF"/>
+<stop offset="1" stop-color="#0F7F"/>
 </radialGradient>
 </defs>
 </svg>
