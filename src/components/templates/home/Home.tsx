@@ -1,36 +1,15 @@
-import { CheckCircleIcon } from '@chakra-ui/icons';
-import { Heading, VStack, List, ListIcon, ListItem } from '@chakra-ui/react';
+import { Heading, VStack, List, ListItem } from '@chakra-ui/react';
+import Image from 'next/image';
 
 const Home = () => {
   return (
-    <VStack w={'full'}>
-      <Heading size="2xl" marginBottom={6} color="red.500">
+    <VStack w={'full'} direction={'row'}>
+      <Heading size="2xl" marginBottom={6} color="white.500">
         Welcome to Cosmic Runners
       </Heading>
       <List spacing={3}>
         <ListItem>
-          <ListIcon as={CheckCircleIcon} color="cyan.500" />
-          Display Transactions
-        </ListItem>
-        <ListItem>
-          <ListIcon as={CheckCircleIcon} color="cyan.500" />
-          Display ERC20 transfers
-        </ListItem>
-        <ListItem>
-          <ListIcon as={CheckCircleIcon} color="cyan.500" />
-          Display ERC20 balances
-        </ListItem>
-        <ListItem>
-          <ListIcon as={CheckCircleIcon} color="cyan.500" />
-          Display NFT balances
-        </ListItem>
-        <ListItem>
-          <ListIcon as={CheckCircleIcon} color="cyan.500" />
-          Display NFT transfers
-        </ListItem>
-        <ListItem>
-          <ListIcon as={CheckCircleIcon} color="cyan.500" />
-          Multichain Support
+          <Image src={'/CarTwo.png'} height={65} width={400} alt="jhvas" />
         </ListItem>
       </List>
     </VStack>
