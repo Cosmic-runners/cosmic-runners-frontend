@@ -9,7 +9,7 @@ const Home = () => {
       </Heading>
       <List spacing={3}>
         <ListItem>
-          <Image src={'/CarTwo.png'} height={65} width={400} alt="jhvas" />
+          <Image src={'/3.png'} height={65} width={400} alt="jhvas" />
         </ListItem>
       </List>
     </VStack>
